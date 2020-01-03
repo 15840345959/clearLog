@@ -8,7 +8,7 @@
 var fs = require("fs");
 var path = require('path');
 
-var base_path = '/Applications/MAMP/htdocs'
+var base_path = '/www/web'
 
 readdir(base_path, function (base_files) {
 
