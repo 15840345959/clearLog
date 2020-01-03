@@ -1,0 +1,19 @@
+{
+  "name": "clearlog",
+  "version": "1.0.0",
+  "description": "清理服务器laravel项目log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/15840345959/clearLog.git"
+  },
+  "author": "leek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/15840345959/clearLog/issues"
+  },
+  "homepage": "https://github.com/15840345959/clearLog#readme"
+}
