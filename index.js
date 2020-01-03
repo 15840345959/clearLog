@@ -25,7 +25,8 @@ readdir(base_path, function (base_files) {
             return false;
         }
 
-        let artisan_path = path.join(base_files_path, 'artisan')
+        // let artisan_path = path.join(base_files_path, 'artisan')
+        let artisan_path = path.join(base_files_path, 'public_html/artisan')
         console.log(artisan_path)
 
         if (!isExists(artisan_path)) {
@@ -33,7 +34,8 @@ readdir(base_path, function (base_files) {
             return false;
         }
 
-        let laravel_log_path = path.join(base_files_path, 'storage/logs/laravel.log')
+        // let laravel_log_path = path.join(base_files_path, 'storage/logs/laravel.log')
+        let laravel_log_path = path.join(base_files_path, 'public_html/storage/logs/laravel.log')
         console.log(laravel_log_path)
 
         if (!isExists(laravel_log_path)) {
