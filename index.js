@@ -11,6 +11,7 @@ var path = require('path');
 var base_path = '/www/web'
 
 readdir(base_path, function (base_files) {
+    console.log(base_files)
 
     base_files.forEach(function (item) {
         let base_files_path = path.join(base_path, item)
