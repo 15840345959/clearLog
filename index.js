@@ -33,7 +33,7 @@ readdir(base_path, function (base_files) {
             return false;
         }
 
-        writeFile(laravel_log_path, '')
+        // writeFile(laravel_log_path, '')
         console.log(laravel_log_path)
     })
 })
